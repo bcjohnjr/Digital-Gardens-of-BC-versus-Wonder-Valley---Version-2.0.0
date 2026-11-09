@@ -1,0 +1,9 @@
+test_independent_dispatch_and_causality (__main__.Tests.test_independent_dispatch_and_causality) ... ok
+test_mixed_date_convention (__main__.Tests.test_mixed_date_convention) ... ok
+test_no_free_battery_or_fuel (__main__.Tests.test_no_free_battery_or_fuel) ... ok
+test_quadratic_matches_direct_line_losses (__main__.Tests.test_quadratic_matches_direct_line_losses) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.993s
+
+OK

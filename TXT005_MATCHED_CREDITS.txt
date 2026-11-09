@@ -1,0 +1,1 @@
+PASS: 32 symmetric-credits rows across 8 source scenarios; 4 cases each

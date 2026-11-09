@@ -1,0 +1,23 @@
+{
+  "title": "Digital Gardens vs. Wonder Valley: Matched carbon, waste-heat and community-benefit comparison — reproducible research data and code",
+  "upload_type": "dataset",
+  "description": "Version-specific author-generated model code, transformed numerical time-series data, carbon/heat/community ledgers, and reproducibility files supporting the study Digital Gardens vs. Wonder Valley. Includes no original third-party source XLS documents. Hypothetical scenarios are not a physical transmission feasibility certificate.",
+  "creators": [
+    {
+      "name": "Bily, Jonathan Karl",
+      "orcid": "0009-0004-3526-7271"
+    }
+  ],
+  "keywords": [
+    "Digital Gardens",
+    "Wonder Valley",
+    "data centres",
+    "renewable energy",
+    "carbon emissions",
+    "heat reuse",
+    "community employment",
+    "British Columbia",
+    "Alberta"
+  ],
+  "notes": "Repository DOI and author-selected code/data licence to be completed when the actual deposit is approved. This metadata is a draft, not a Zenodo registration."
+}

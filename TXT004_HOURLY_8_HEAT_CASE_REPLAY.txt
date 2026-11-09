@@ -1,0 +1,9 @@
+RESULT full_service central elec 39.7718 thermal 9.995 gross 2.0165 net 1.5199 unserved GWh 0.0
+RESULT full_service combined_adverse elec 39.7718 thermal 9.995 gross 2.1479 net 1.6512 unserved GWh 12291.12
+RESULT limited_plant central elec 39.4207 thermal 8.8891 gross 1.9791 net 1.5427 unserved GWh 0.0
+RESULT limited_plant combined_adverse elec 39.4207 thermal 8.8891 gross 2.1259 net 1.6896 unserved GWh 10147.07
+RESULT half_connected central elec 38.1853 thermal 4.9975 gross 1.8919 net 1.6436 unserved GWh 0.0
+RESULT half_connected combined_adverse elec 38.1853 thermal 4.9975 gross 2.0578 net 1.8095 unserved GWh 6508.14
+RESULT no_network central elec 36.5988 thermal 0.0 gross 1.7752 net 1.7752 unserved GWh 0.0
+RESULT no_network combined_adverse elec 36.5988 thermal 0.0 gross 1.9488 net 1.9488 unserved GWh 3360.2
+ALL VERIFICATIONS PASSED

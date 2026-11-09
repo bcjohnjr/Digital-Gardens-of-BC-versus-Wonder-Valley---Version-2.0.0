@@ -1,0 +1,11 @@
+{
+  "counts_before_manifest": {
+    "01_JOULE_SUBMISSION_CURRENT": 10,
+    "02_RESEARCH_RELEASE_CANDIDATE": 287,
+    "03_SOURCE_PROVENANCE_AND_RIGHTS": 1,
+    "04_VERIFICATION": 6
+  },
+  "current_research_title": "Digital Gardens vs. Wonder Valley",
+  "main_docx_inline_figures": 6,
+  "supp_docx_tables": 9
+}

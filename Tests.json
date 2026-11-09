@@ -1,0 +1,15 @@
+{
+  "source_version": "NOV8_16",
+  "release_candidate_version": "NOV9_17",
+  "date": "2026-11-09",
+  "tests": {
+    "four_inherited_unit_tests": "passed",
+    "twelve_complete_140160_hour_cases": "passed",
+    "eight_heat_capacity_coupled_140160_hour_cases": "passed",
+    "thirtytwo_matched_emissions_ledger": "passed",
+    "carbon_boundary_ledger": "passed"
+  },
+  "verification_scope": "frozen prepared inputs supplied in this candidate, not independently collected raw source data; no actual physical transmission validation",
+  "DOI": "not minted",
+  "rights": "source-dependent; raw facts not automatically copyrighted; contractual/database conditions may apply"
+}
