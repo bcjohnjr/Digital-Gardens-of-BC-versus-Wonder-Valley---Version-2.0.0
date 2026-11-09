@@ -1,0 +1,5 @@
+scope,case,annual_electric_service_TWh,gas_fuel_TWh_HHV,direct_gas_CO2_Mt,non_electric_fuel_heat_TWh,status
+same facility only,CCGT 57% net HHV,36.00486,63.166421,11.403839,27.161561,assumed technology; not a WV operating forecast
+same facility only,simple cycle 38% net HHV,36.00486,94.749632,17.105759,58.744772,assumed technology; not a WV operating forecast
+facility plus distinct dryer booster (archived primary),CCGT 57% net HHV,36.251218,63.598629,11.481868,27.34741,assumed technology; not a WV operating forecast
+facility plus distinct dryer booster (archived primary),simple cycle 38% net HHV,36.251218,95.397943,17.222803,59.146725,assumed technology; not a WV operating forecast

@@ -1,0 +1,4 @@
+electric_penalty_MWhe_per_MWhth,steam_demand_cap_MWth,annual_useful_steam_GWh,annual_replacement_electricity_GWh,all_in_heat_price_to_break_even_CAD_MWhth,net_margin_at_35_CAD_m_yr,net_margin_at_50_CAD_m_yr
+0.0800000,60,165.9712405,13.2776992,47.7617051,-2.1180760,0.3714926
+0.1200000,60,165.9712405,19.9165489,60.9087881,-4.3001137,-1.8105451
+0.1600000,60,165.9712405,26.5553985,74.0558711,-6.4821514,-3.9925828

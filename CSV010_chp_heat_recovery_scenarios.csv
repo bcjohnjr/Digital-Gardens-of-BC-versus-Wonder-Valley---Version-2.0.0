@@ -1,0 +1,4 @@
+case,recoverable_fraction_of_post_steam_residual,co_located_heat_demand_cap_MWth,annual_useful_heat_GWh,electric_efficiency_pct,combined_electric_plus_thermal_efficiency_pct,net_annual_margins_mCAD_at_heat_tariff_10,net_annual_margins_mCAD_at_heat_tariff_20,break_even_heat_tariff_cad_mwhth
+limited,0.3000000,40,109.8283634,58.9503399,65.8703062,-1.1945884,-0.0963047,20.8768659
+central,0.5000000,100,266.4656910,58.9503399,75.7390992,-3.0432075,-0.3785506,21.4206353
+high_match,0.6500000,180,423.5189931,58.9503399,85.6322109,-5.8706082,-1.6354183,23.8614992

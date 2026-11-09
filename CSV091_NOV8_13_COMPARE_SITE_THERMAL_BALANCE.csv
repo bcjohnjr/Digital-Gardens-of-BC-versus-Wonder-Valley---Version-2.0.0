@@ -1,0 +1,6 @@
+portfolio,annual_local_generator_non_electric_TWh,heat_equivalent_facility_TWh,total_site_energy_heat_equiv_TWh,thermal_not_extracted_by_HP_TWh,scope
+reference,4.458628222463136,36.00486,40.463488222463134,32.530955213158244,HVO fuel LHV times 46% non-electric efficiency plus B100; DOES NOT include imports heat abroad
+enlarged,2.6717568315129956,36.00486,38.676616831512995,30.744083822208108,HVO fuel LHV times 46% non-electric efficiency plus B100; DOES NOT include imports heat abroad
+Wonder Valley CCGT 0% CCS,30.003303430619425,36.00486,66.00816343061942,58.07563042131453,Gas HHV minus electricity; NON-ELECTRIC energy includes CCS utility and is not all recoverable heat
+Wonder Valley CCGT 90% CCS,40.46957206920759,36.00486,76.47443206920758,68.54189905990269,Gas HHV minus electricity; NON-ELECTRIC energy includes CCS utility and is not all recoverable heat
+Wonder Valley CCGT 95% CCS,40.46957206920759,36.00486,76.47443206920758,68.54189905990269,Gas HHV minus electricity; NON-ELECTRIC energy includes CCS utility and is not all recoverable heat

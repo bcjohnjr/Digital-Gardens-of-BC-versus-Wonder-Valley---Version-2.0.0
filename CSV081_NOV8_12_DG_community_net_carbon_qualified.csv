@@ -1,0 +1,9 @@
+DG_case,incremental_supply_factor_kg_per_kWh,uncoupled_partial_gross_MtCO2e,conditional_home_avoidance_MtCO2,conditional_drying_avoidance_MtCO2,aux_HP_electricity_TWh,RAS_scenario_electricity_TWh,hypothetical_incremental_electricity_emissions_MtCO2e,indicative_adjusted_partial_net_MtCO2e,status
+reference,0.015,2.047846,0.310657,0.186031,3.173013,0.347589,0.052809,1.603967,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+enlarged,0.015,1.752729,0.310657,0.186031,3.173013,0.347589,0.052809,1.308851,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+reference,0.1,2.047846,0.310657,0.186031,3.173013,0.347589,0.35206,1.903219,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+enlarged,0.1,1.752729,0.310657,0.186031,3.173013,0.347589,0.35206,1.608102,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+reference,0.25,2.047846,0.310657,0.186031,3.173013,0.347589,0.880151,2.431309,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+enlarged,0.25,1.752729,0.310657,0.186031,3.173013,0.347589,0.880151,2.136192,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+reference,0.438,2.047846,0.310657,0.186031,3.173013,0.347589,1.542024,3.093182,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"
+enlarged,0.438,1.752729,0.310657,0.186031,3.173013,0.347589,1.542024,2.798065,"not hourly dispatched; excludes other agriculture, hardware, chemicals, water, methane, CCS effects"

@@ -1,0 +1,5 @@
+case,capture_fraction,assumed_extra_fuel_fraction,electric_TWh,fuel_TWh_HHV,uncaptured_direct_CO2_Mt,upstream_CH4_only_CO2e_Mt_if_1pct_leak,direct_plus_CH4_only_Mt_CO2e,non_electric_thermodynamic_TWh,additional_upstream_nonmethane_and_embodied,status
+CCGT capture 0%,0,0,36.251218,63.598629,11.481868,1.378356,12.860224,27.34741,excluded (unknown),"unbuilt hypothetical; 100% case ideal upper-bound, not bankable"
+CCGT capture 90%,0.9,0.15,36.251218,73.138423,1.320415,1.585109,2.905524,36.887205,excluded (unknown),"unbuilt hypothetical; 100% case ideal upper-bound, not bankable"
+CCGT capture 95%,0.95,0.15,36.251218,73.138423,0.660207,1.585109,2.245317,36.887205,excluded (unknown),"unbuilt hypothetical; 100% case ideal upper-bound, not bankable"
+CCGT capture 100%,1.0,0.15,36.251218,73.138423,0.0,1.585109,1.585109,36.887205,excluded (unknown),"unbuilt hypothetical; 100% case ideal upper-bound, not bankable"

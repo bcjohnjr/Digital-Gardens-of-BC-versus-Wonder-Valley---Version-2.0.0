@@ -1,0 +1,2 @@
+scenario,N0_unserved_MW,N0_grid_net_import_MW,N0_grid_purchase_MW,N0_grid_sale_MW,N0_grid_cost_CAD_per_hour,N0_curtailed_MW,N0_HVO_MW,N0_max_DC_line_loading_percent,N1_count,N1_worst_unserved_MW,N1_failed_secure_cases,N1_max_curtailment_MW,N1_max_grid_purchase_MW,N1_max_grid_sale_MW,N1_worst_grid_import_MW,N1_thermal_screen_pass
+connected_winter_import2500_export3000,0.0,2500.0,2500.0,0.0,312500.0,-1.1368683772161603e-13,1989.9116218790841,27.14177337903253,98,0.0,0,5.684341886080802e-14,2500.0,0.0,2500.0,True

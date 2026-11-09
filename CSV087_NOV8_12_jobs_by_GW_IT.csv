@@ -1,0 +1,5 @@
+case,IT_GW_used_for_denominator,direct_ongoing_FTE,FTE_per_GW_IT,source
+"DG data centre only, planning assumption",3.751,937.8,250.0,0.25 FTE/MW from inherited scenario
+"DG data centre plus proposed food network, planning assumption",3.751,2063.0,549.9,"includes 1,125 hypothetical community-food FTE"
+WV Phase 1 lower developer projection,1,100,100,projected per phase; 1 GW IT phase assumption
+WV Phase 1 upper developer projection,1,150,150,projected per phase; not full-build workforce count

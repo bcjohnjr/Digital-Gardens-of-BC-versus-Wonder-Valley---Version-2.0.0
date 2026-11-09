@@ -1,0 +1,5 @@
+scenario,HVO_upstream_illustrative_MtCO2e,biomethane_upstream_illustrative_MtCO2e,FAME_upstream_illustrative_MtCO2e,sum_illustrative_MtCO2e
+engine_existing,0.43025932,0.00000000,0.00000000,0.43025932
+CCGT360_HVO_only,0.41716347,0.00000000,0.00000000,0.41716347
+CCGT360_biomethane25,0.38144996,0.02142810,0.00000000,0.40287807
+CCGT360_biomethane25_B20engines,0.32658807,0.02142810,0.07680664,0.42482282

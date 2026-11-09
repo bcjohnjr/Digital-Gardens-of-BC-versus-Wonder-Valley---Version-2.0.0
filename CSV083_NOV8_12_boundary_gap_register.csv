@@ -1,0 +1,20 @@
+category,status,accounting
+Wonder Valley CCGT fuel combustion,computed direct fossil CO2,included
+Wonder Valley upstream methane (1% scenario),upstream CH4 only,"sensitivity, not primary"
+Wonder Valley upstream non-CH4 gas supply,not modelled,excluded
+Wonder Valley generation capital and CCS plant,not modelled,excluded
+Wonder Valley CCUS energy penalty 15%,hypothetical electricity-maintaining fuel penalty,sensitivity
+Wonder Valley CO2 transport/leak/monitoring,not modelled,excluded
+Wonder Valley district heating,architect design intention,unverified; counterfactual matched heat scenario
+"Digital Gardens wind, solar, storage",inherited amortized proxy factors,partial proxy
+Digital Gardens HVO/B100,inherited pathway factors,incomplete feedstock and tailpipe accounting
+Digital Gardens grid imports,inherited 100 g/kWh factor,not an hourly marginal grid factor
+Digital Gardens GPUs/data centre civil works,not modelled,excluded
+Digital Gardens heat-pump electricity,scenario explicit in this revision,not resimulated
+Digital Gardens community fossil heating displaced,legacy service counterfactual,conditional credit
+Digital Gardens drying fossil heat displaced,legacy service counterfactual,conditional credit
+Digital Gardens RAS pump/filtration electricity,literature single-species case-study scenario,not resimulated
+"Digital Gardens crop inputs, fish feed and water",only screening quantities,excluded from emissions
+Both projects construction/decommissioning,not harmonized,excluded
+"Both projects IT hardware, server refreshes",common IT workload but capital not modelled,excluded
+Grid/security full physical interconnection,synthetic topology,unverified

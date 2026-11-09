@@ -1,0 +1,5 @@
+case,failing,min_voltage
+Uncompensated,14,0.9214641135967622
+Limited VAR support,2,0.9453314583566816
+Moderate VAR support,2,0.9492025232292158
+Strong local VAR support,0,0.956859311664407

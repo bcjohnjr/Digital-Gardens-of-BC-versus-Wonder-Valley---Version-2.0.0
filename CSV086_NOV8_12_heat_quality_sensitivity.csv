@@ -1,0 +1,5 @@
+share_low_grade_heat_assumed,delivered_heat_TWh,direct_temperature_suitable_source_TWh_needed,heat_pump_source_TWh_needed,total_source_TWh,heat_pump_electricity_TWh,caveat
+0.0,9.994992,11.105546,0.0,11.105546,0.0,direct heat needs independently confirmed source temperature and extraction penalty; zero-HP case not asserted feasible
+0.25,9.994992,8.32916,1.983133,10.312293,0.793253,direct heat needs independently confirmed source temperature and extraction penalty; zero-HP case not asserted feasible
+0.5,9.994992,5.552773,3.966267,9.51904,1.586507,direct heat needs independently confirmed source temperature and extraction penalty; zero-HP case not asserted feasible
+1.0,9.994992,0.0,7.932533,7.932533,3.173013,direct heat needs independently confirmed source temperature and extraction penalty; zero-HP case not asserted feasible

@@ -1,0 +1,15 @@
+project,category,emissions_MtCO2e_y,kind,boundary,provenance
+Digital Gardens,Wind lifetime proxy,0.2314119963638817,modelled partial lifecycle proxy,selected lifetime generation/manufacturing,NOV8_08 mean proxy + NOV8_13 dispatch delta
+Digital Gardens,Solar lifetime proxy,0.6239530711554884,modelled partial lifecycle proxy,selected lifetime generation/manufacturing,NOV8_08 mean proxy + NOV8_13 dispatch delta
+Digital Gardens,Battery embodied proxy,0.1166700636451174,modelled partial lifecycle proxy,selected lifetime generation/manufacturing,NOV8_08 mean proxy + NOV8_13 dispatch delta
+Digital Gardens,Imported electricity assumed mix,0.5185843696843052,modelled partial lifecycle proxy,purchased grid production,NOV8_08 mean proxy + NOV8_13 dispatch delta
+Digital Gardens,HVO renewable-fuel well-to-wheel,0.5068050322525425,modelled partial lifecycle proxy,renewable fuel supply chain with biogenic carbon convention,NOV8_08 mean proxy + NOV8_13 dispatch delta
+Digital Gardens,B100 renewable-fuel well-to-wheel,0.019116,modelled partial lifecycle proxy,renewable fuel supply chain with biogenic carbon convention,NOV8_08 mean proxy + NOV8_13 dispatch delta
+Digital Gardens,Conditional displaced fossil home and drying,-0.4966873281372077,conditional avoided emissions separate from gross,assumed matched thermal customer service,NOV8_14 full service coupled hourly dispatch
+Digital Gardens,PARTIAL GROSS,2.016540533101335,derived subtotal not whole-system LCA,six selected non-exhaustive categories,sum of six positive rows
+Digital Gardens,CONDITIONAL PARTIAL NET,1.5198532049641273,derived conditional subtotal not whole-system LCA,partial gross less conditional community displacement,sum and difference
+Wonder Valley,Unabated CCGT direct fossil combustion,12.59695070599575,direct fossil combustion,equal electric service 39.771821 TWh/y and 57% net HHV efficiency,NOV8_14 matched WV case
+Wonder Valley,Unabated CCGT methane at assumed 1 percent,1.5122171454019009,upstream methane scenario,not observed; non-exhaustive gas supply-chain proxy,NOV8_14 matched WV case
+Wonder Valley,Unabated CCGT direct plus methane,14.10916785139765,partial gas combustion plus methane,not whole-system LCA,sum of preceding two
+Wonder Valley,90 percent CCS direct plus methane,3.187699048401697,hypothetical CCS case; 15 percent fuel penalty,"excludes construction, capture plant supply chain and storage",NOV8_14 matched WV case
+Wonder Valley,95 percent CCS direct plus methane,2.4633743828069417,hypothetical CCS case; 15 percent fuel penalty,"excludes construction, capture plant supply chain and storage",NOV8_14 matched WV case
