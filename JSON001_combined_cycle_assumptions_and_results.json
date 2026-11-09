@@ -1,0 +1,38 @@
+{
+  "source": "Hourly 16-year redispatch of archived selected wind/solar/battery build; includes drying booster",
+  "baseline": {
+    "HVO_ML_yr": 471.38791506571965,
+    "HVO_cost_CAD_M_yr": 848.4982471182955,
+    "LCOE_CAD_MWh": 191.50207750263417,
+    "original_engine_efficiency_LHV": 0.54,
+    "back_up_output_GWh_yr": 2581.5559168574136
+  },
+  "method": "Discrete 180-MW modular CCGT operating for residual engine HVO load; legacy engine covers small/peak demands; dispatch priority unchanged",
+  "assumptions": {
+    "CCGT_gas_rated_net_efficiency_full_load_LHV": 0.6,
+    "CCGT_full_load_screen_thermal_efficiency_after_cycle_factor": 0.591,
+    "CCGT_part_load_minimum": 0.4,
+    "cycle_factor": 0.985,
+    "HVO_price_CAD_per_litre": 1.8,
+    "upgraded_biomethane_CAD_per_GJ_LHV": 20.0,
+    "used_cooking_oil_purchase_CAD_per_litre_raw": 0.9,
+    "FAME_processing_and_logistics_CAD_per_litre_finished": 0.65,
+    "FAME_volume_yield": 0.88,
+    "FAME_allowed_only_in_separately_certified_reciprocating_engines": true,
+    "displaced_engine_capex_CAD_per_kW_assumed": 1600.0,
+    "ccgt_capex_CAD_per_kW_assumed": 2900.0,
+    "incremental_ccgt_capex_excludes_actual_transmission_water_permits": true,
+    "river_water_withdrawal_not_automatic": true,
+    "condenser_fraction_of_CC_residual_heat": 0.45,
+    "once_through_temperature_rise_K": 5.0,
+    "high_64pct_case_not_verified_for_HVO_gas_or_cycling": true
+  },
+  "sources": [
+    "Siemens Energy: Combined Cycle Power Plants",
+    "Siemens Energy: Sustainable Alternative Fuels",
+    "Siemens Energy: SGT-800",
+    "IEA AMF: FAME Compatibility",
+    "US DOE NETL 2025 CCGT performance baseline"
+  ],
+  "caveat": "No fuel blending/OEM approval, biomass purchase agreement, freshwater permit, reactive delivery, steam-cycle siting or verified heat contract established."
+}

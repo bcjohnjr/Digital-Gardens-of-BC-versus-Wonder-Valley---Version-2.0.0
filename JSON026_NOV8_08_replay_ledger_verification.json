@@ -1,0 +1,105 @@
+{
+  "reference_archive": "NOV8_07_COMPLETE_PRIVATE_RESEARCH.zip",
+  "replayed_model_executable": "code/evidence_model.py --reuse-fit",
+  "scenarios": {
+    "scenario_annual.csv": {
+      "records": 160,
+      "max_absolute_differences": {
+        "year": 0.0,
+        "HVO_ML": 5.684341886080802e-14,
+        "unserved_GWh": 5.684341886080802e-14,
+        "import_TWh": 1.7763568394002505e-15,
+        "export_TWh": 4.440892098500626e-16,
+        "curtail_TWh": 4.440892098500626e-16,
+        "import_cost_CAD_bn": 2.220446049250313e-16,
+        "export_revenue_CAD_bn": 9.71445146547012e-17,
+        "loss_GWh": 1.9895196601282805e-13,
+        "B100_GWh": 2.842170943040401e-14,
+        "max_unserved_MW": 0.0,
+        "max_loss_residual_MW": 1.4210854715202004e-14,
+        "max_balance_residual_MW": 4.4941828036826377e-13,
+        "max_engine_MW": 0.0,
+        "load_TWh": 0.0,
+        "wind_TWh": 0.0,
+        "solar_TWh": 0.0,
+        "hydro_TWh": 0.0,
+        "end_soc_MWh": 2.8421709430404014e-14
+      },
+      "max_numeric_difference": 4.4941828036826377e-13
+    },
+    "scenario_summary.csv": {
+      "records": 30,
+      "max_absolute_differences": {
+        "first_year": 0.0,
+        "last_year": 0.0,
+        "wind_GW": 0.0,
+        "solar_GW": 0.0,
+        "battery_GWh": 0.0,
+        "cost_CAD_MWh": 0.0,
+        "mean_HVO_ML": 5.684341886080802e-14,
+        "max_HVO_ML": 0.0,
+        "mean_import_TWh": 8.881784197001252e-16,
+        "mean_export_TWh": 2.220446049250313e-16,
+        "mean_loss_GWh": 1.4210854715202004e-13,
+        "total_unserved_GWh": 0.0,
+        "max_unserved_MW": 0.0,
+        "mean_curtail_TWh": 2.220446049250313e-16,
+        "max_engine_MW": 0.0,
+        "gross_HVO_upstream_Mt": 1.1102230246251565e-16,
+        "gross_grid_at100g_Mt": 0.0
+      },
+      "max_numeric_difference": 1.4210854715202004e-13
+    },
+    "old_build_constant_access": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 0.0,
+      "max_abs_independent_energy_balance_residual_MW": 3.0000258277596004e-08
+    },
+    "old_build_observed_shape": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 0.0,
+      "max_abs_independent_energy_balance_residual_MW": 3.0000258277596004e-08
+    },
+    "new_build_observed_shape": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 2.0002357103976465e-08
+    },
+    "new_build_wind_minus10pct": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 3.000035775357901e-08
+    },
+    "new_build_half_access": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 3.000026005395284e-08
+    },
+    "new_build_local160MW": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 2.0002357103976465e-08
+    },
+    "new_build_clock_minus1h": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 3.000008419462574e-08
+    },
+    "new_build_clock_plus1h": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 2.0002357103976465e-08
+    },
+    "new_build_missing_TTC_previous": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 2.0002357103976465e-08
+    },
+    "new_build_local160MW_gapfilled": {
+      "hourly_records": 140160,
+      "max_abs_numeric_difference_from_NOV8_07": 1.000000082740371e-08,
+      "max_abs_independent_energy_balance_residual_MW": 2.0002357103976465e-08
+    }
+  },
+  "missing_reference_files": []
+}

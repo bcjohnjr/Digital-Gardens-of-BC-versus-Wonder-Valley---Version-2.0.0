@@ -1,0 +1,23 @@
+{
+  "method": "iterative static local-HVO redispatch against solved AC slack",
+  "scenarios": 99,
+  "converged": 99,
+  "import_limit_mw": 2500,
+  "maximum_ac_slack_mw": 2499.6982171060936,
+  "min_bus_voltage_pu": 0.9576647635530339,
+  "max_branch_loading_pct": 55.32711096619569,
+  "failure_count": 0,
+  "added_hvo_mw_range": [
+    17.293610738793888,
+    23.91555718565175
+  ],
+  "ac_loss_mw_range": [
+    16.99182785012204,
+    23.31323316532546
+  ],
+  "grid_slack_mw_range": [
+    2499.397676086922,
+    2499.6982171060936
+  ],
+  "notes": "hypothetical static PQ-bus AC model, ideal Q/P=0.04; 2.5GW import cap enforced, no battery or hourly nodal coupling"
+}

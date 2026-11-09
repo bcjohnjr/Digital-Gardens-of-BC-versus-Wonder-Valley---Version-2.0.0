@@ -1,0 +1,90 @@
+[
+  {
+    "station_id": 979,
+    "name": "SUMMERLAND CS",
+    "climate_id": "112G8L1",
+    "latitude": 49.562555555555555,
+    "longitude": -119.64869444444444,
+    "elevation_m": "454.20",
+    "timezone": "MST",
+    "hourly_first": "1994-02",
+    "hourly_last": "2026-11"
+  },
+  {
+    "station_id": 1255,
+    "name": "CLINTON (AUT)",
+    "climate_id": "1161661",
+    "latitude": 51.14472222222222,
+    "longitude": -121.50472222222223,
+    "elevation_m": "1056.70",
+    "timezone": "PST",
+    "hourly_first": "1994-02",
+    "hourly_last": "2018-07"
+  },
+  {
+    "station_id": 6834,
+    "name": "PRINCETON CS",
+    "climate_id": "112FN0M",
+    "latitude": 49.465,
+    "longitude": -120.51,
+    "elevation_m": "696.50",
+    "timezone": "MST",
+    "hourly_first": "1994-02",
+    "hourly_last": "2026-11"
+  },
+  {
+    "station_id": 42203,
+    "name": "KAMLOOPS AUT",
+    "climate_id": "1163842",
+    "latitude": 50.702222222222225,
+    "longitude": -120.44194444444445,
+    "elevation_m": "345.00",
+    "timezone": "MST",
+    "hourly_first": "2006-04",
+    "hourly_last": "2026-11"
+  },
+  {
+    "station_id": 44927,
+    "name": "LYTTON RCS",
+    "climate_id": "1114746",
+    "latitude": 50.224444444444444,
+    "longitude": -121.58194444444445,
+    "elevation_m": "225.00",
+    "timezone": "MST",
+    "hourly_first": "2006-05",
+    "hourly_last": "2026-11"
+  },
+  {
+    "station_id": 48708,
+    "name": "ASHCROFT",
+    "climate_id": "1160515",
+    "latitude": 50.70833472222222,
+    "longitude": -121.28138916666667,
+    "elevation_m": "327.00",
+    "timezone": "MST",
+    "hourly_first": "2010-06",
+    "hourly_last": "2026-11"
+  },
+  {
+    "station_id": 49408,
+    "name": "MERRITT",
+    "climate_id": "1125073",
+    "latitude": 50.112501944444446,
+    "longitude": -120.77805555555555,
+    "elevation_m": "591.00",
+    "timezone": "MST",
+    "hourly_first": "2011-05",
+    "hourly_last": "2026-11"
+  },
+  {
+    "station_id": 53638,
+    "name": "CLINTON RCS",
+    "climate_id": "1161663",
+    "latitude": 51.144465,
+    "longitude": -121.50478,
+    "elevation_m": "1059.00",
+    "timezone": "MST",
+    "hourly_first": "2015-03",
+    "hourly_last": "2026-11"
+  }
+]

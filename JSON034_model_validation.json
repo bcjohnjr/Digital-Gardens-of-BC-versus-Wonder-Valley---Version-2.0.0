@@ -1,0 +1,114 @@
+{
+  "old_build_constant_access": {
+    "max_balance_error_MW": 1.3642420526593924e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3132.9541684394685,
+    "max_loss_fixedpoint_error_MW": 9.991642713202964e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 610.2330806346446,
+    "max_B100_GWh": 95.58000000000003
+  },
+  "old_build_observed_shape": {
+    "max_balance_error_MW": 1.3606893389805919e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3132.9541684394685,
+    "max_loss_fixedpoint_error_MW": 9.999651062742032e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 976.4516000000025,
+    "max_B100_GWh": 95.58000000000003
+  },
+  "new_build_observed_shape": {
+    "max_balance_error_MW": 1.751487843648647e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.998902505969909e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 975.1990152979067,
+    "max_B100_GWh": 95.58000000000004,
+    "max_intact_DC_branch_loading_pct": 57.071428571428584,
+    "intact_DC_over100_hours": 0
+  },
+  "new_build_wind_minus10pct": {
+    "max_balance_error_MW": 1.7124079931818414e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.998884387130147e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 976.4516000000018,
+    "max_B100_GWh": 95.5800000000001
+  },
+  "new_build_half_access": {
+    "max_balance_error_MW": 1.5845103007450234e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.999296635143651e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 976.4516000000044,
+    "max_B100_GWh": 95.58000000000006
+  },
+  "new_build_local160MW": {
+    "max_balance_error_MW": 1.751487843648647e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.998902505969909e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 973.9940444256033,
+    "max_B100_GWh": 95.58000000000004
+  },
+  "new_build_clock_minus1h": {
+    "max_balance_error_MW": 1.8136603330276557e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.998902505969909e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 976.4516000000008,
+    "max_B100_GWh": 95.58000000000004
+  },
+  "new_build_clock_plus1h": {
+    "max_balance_error_MW": 1.751487843648647e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.9993682667332e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 974.1766146346229,
+    "max_B100_GWh": 95.58000000000004
+  },
+  "new_build_missing_TTC_previous": {
+    "max_balance_error_MW": 1.751487843648647e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.998902505969909e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 975.0406213813462,
+    "max_B100_GWh": 95.58000000000004
+  },
+  "new_build_local160MW_gapfilled": {
+    "max_balance_error_MW": 1.751487843648647e-12,
+    "max_SOC_error_MWh": 2.2737367544323206e-13,
+    "min_SOC_MWh": -5.684341886080802e-14,
+    "max_SOC_MWh": 3040.640152610841,
+    "max_loss_fixedpoint_error_MW": 9.998902505969909e-08,
+    "max_import_cap_excess_MW": 0.0,
+    "max_export_cap_excess_MW": 0.0,
+    "max_HVO_ML": 973.8356505090428,
+    "max_B100_GWh": 95.58000000000004
+  }
+}

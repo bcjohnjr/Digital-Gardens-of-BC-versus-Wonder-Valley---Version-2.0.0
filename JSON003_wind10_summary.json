@@ -1,0 +1,30 @@
+{
+  "method": "10% common-mode reduction in modeled delivered wind compensated MW-for-MW by additional HVO at 17 campus proxies, preserving the original grid trades plus archived ex-post preventive reserve, with 13% hypothetical collector ratings; full 94-state nonlinear AC replay; neither dispatch optimization nor physical validation",
+  "adverse_wind_derating_fraction": 0.1,
+  "extra_wind_replacement_hvo_ML_per_year": 314.6815855353276,
+  "additional_hvo_ML_per_year_including_preventive": 316.0488455923421,
+  "maximum_total_hvo_ML_per_year": 884.5408249910823,
+  "maximum_local_additional_hvo_MW": 467.8944000000001,
+  "hours": 140160,
+  "branch_outages_completed": 93,
+  "n0_and_n1_cases": 94,
+  "nonlinear_power_flow_cases_evaluated": 13175040,
+  "complete_140160x93_branch_sweep": true,
+  "total_failed_ac_cases": 10794,
+  "total_nonconverged_cases": 0,
+  "n0_failed_hours": 115,
+  "hours_with_any_n1_failure": 115,
+  "hourly_energy_balance_baseline_max_discrepancy_MW": 2.578440216893796e-07,
+  "max_branch_loading_pct": 89.81931574458388,
+  "worst_min_voltage_pu": 0.9559679733282629,
+  "max_grid_import_MW": 2499.718715671287,
+  "max_grid_export_MW": 3006.0127569727956,
+  "mean_n0_ac_losses_MW": 22.35503462211237,
+  "elapsed_seconds": 165.14,
+  "notes": [
+    "Ex-post dispatch uses archived base-wind worst-case reserve PLUS a full MW-for-MW HVO replacement of 10% modeled delivered wind; annual HVO caps and per-hour generator headroom checked; no storage/commitment optimization or real-time control.",
+    "All 37 buses, 93 parallel circuits, 17 campus allocation and 931 MVAr idealized Q correction are hypothetical.",
+    "The AC grid slack is independently checked against external access caps; these have not been contracted.",
+    "No PV bus generator Q limits, load-dependent losses feedback, tap controls, harmonics, fault duty or dynamic protections."
+  ]
+}

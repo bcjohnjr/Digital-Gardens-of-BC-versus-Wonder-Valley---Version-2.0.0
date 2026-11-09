@@ -1,0 +1,16 @@
+{
+  "dig_gross_Mt_y": 2.016540533101335,
+  "dig_community_credit_Mt_y": 0.4966873281372077,
+  "dig_net_Mt_y": 1.5198532049641273,
+  "wv_unabated_direct_Mt_y": 12.59695070599575,
+  "wv_assumed_1pct_methane_Mt_y": 1.5122171454019009,
+  "wv_direct_plus_methane_Mt_y": 14.10916785139765,
+  "wv_90CCS_Mt_y": 3.187699048401697,
+  "wv_95CCS_Mt_y": 2.4633743828069417,
+  "ratio_DG_partialnet_to_WV_unabated_partial": 0.10772096703162909,
+  "ratio_DG_partialnet_to_WV_95CCS_partial": 0.6169801941482804,
+  "fuel_HVO_ML_y": 555.2506516050863,
+  "assumed_imports_TWh_y": 5.185843696843052,
+  "title": "Digital Gardens vs. Wonder Valley",
+  "disclaimer": "Partial and mutually unequal scopes; no comparative ISO LCA or independently validated CCS."
+}

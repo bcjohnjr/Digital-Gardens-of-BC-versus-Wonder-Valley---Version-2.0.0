@@ -1,0 +1,30 @@
+{
+  "screen": "hypothetical 17-load winter N0 plus 98 single contingencies",
+  "n_cases": 99,
+  "ac_converged_count": 99,
+  "ac_passed_all_screen_criteria_count": 99,
+  "grid_import_ceiling_mw": 2500,
+  "actual_ac_grid_slack_mw_min": 2499.397676086922,
+  "actual_ac_grid_slack_mw_max": 2499.6982171060936,
+  "active_AC_losses_mw_min": 16.99182785012204,
+  "active_AC_losses_mw_max": 23.31323316532546,
+  "additional_local_HVO_mw_min": 17.293610738793888,
+  "additional_local_HVO_mw_max": 23.91555718565175,
+  "illustrative_added_fuel_CAD_per_screened_hour_min": 5684.409849841551,
+  "illustrative_added_fuel_CAD_per_screened_hour_max": 7861.04364692373,
+  "ac_bus_min_voltage_pu": 0.957664763553034,
+  "ac_branch_max_MVA_loading_pct": 55.32711096619569,
+  "ac_voltage_limit_failure_count": 0,
+  "ac_thermal_limit_failure_count": 0,
+  "n0_winter_AC_slack_mw": 2499.6170178917528,
+  "n0_winter_extra_HVO_mw": 20.017568525906064,
+  "major_limitations": [
+    "Synthetic, unsurveyed transmission topology and impedances",
+    "Ideal net Q/P 0.04 at the seventeen campus buses, no actual STATCOM controller limits",
+    "No dynamic, contingency protection or short-circuit studies",
+    "No synchronized 16-year loss-aware AC grid-dispatch optimization",
+    "No awarded 2.5-GW utility import or 3-GW export rights",
+    "Static HVO redispatch does not demonstrate contracted fuel availability"
+  ],
+  "cost_convention": "Incremental HVO variable cost for screened winter hour only; cannot annualise these winter extrema to the 16-year system cost."
+}

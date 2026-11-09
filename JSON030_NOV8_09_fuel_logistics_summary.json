@@ -1,0 +1,27 @@
+{
+  "method": "Frozen dispatch fuel-draw postprocessing only: annual resetting retained in source model; does not model realistic delivery schedules, fleet size, transport, tanks, contracts or re-dispatch",
+  "HVO_litres_per_MWh": 182.59837487446362,
+  "assumed_annual_cap_ML": 976.4516,
+  "cases": {
+    "reference_central": {
+      "peak_annual_consumption_ML": 975.199015,
+      "peak_year": 2013,
+      "lowest_annual_headroom_ML": 1.252585,
+      "max_uniform_delivery_opening_inventory_ML": 107.621675,
+      "max_annual_volume_shortfall_at_10pct_less_procurement_ML": 96.392575,
+      "max_7day_no_delivery_draw_ML": 62.901247,
+      "max_14day_no_delivery_draw_ML": 118.844281,
+      "max_30day_no_delivery_draw_ML": 181.539436
+    },
+    "robust_central": {
+      "peak_annual_consumption_ML": 513.139416,
+      "peak_year": 2013,
+      "lowest_annual_headroom_ML": 463.312184,
+      "max_uniform_delivery_opening_inventory_ML": 43.20321,
+      "max_annual_volume_shortfall_at_10pct_less_procurement_ML": 0.0,
+      "max_7day_no_delivery_draw_ML": 53.260891,
+      "max_14day_no_delivery_draw_ML": 99.441691,
+      "max_30day_no_delivery_draw_ML": 142.053982
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "optimized_design_prior_to_dryer_load": {
+    "generation_cost_CAD_MWh": 148.2172344276437,
+    "trading_cost_CAD_MWh": 42.311770506084315,
+    "wind_extension_CAD_MWh": 0.973072568906172,
+    "total_CAD_MWh": 191.50207750263417,
+    "hvo_ml_mean": 471.3879150657198,
+    "hvo_ml_max": 597.9666859115708,
+    "max_gas_gwh": 0.0,
+    "max_unserved_gwh": 0.0,
+    "import_twh": 12.405435280727133,
+    "export_twh": 1.0622279395812397,
+    "curtail_twh": 0.0015250640536070218,
+    "import_revenue_bn": 1.5684352534356236,
+    "export_revenue_bn": 0.04500588001192878,
+    "capex_bn": 49.70605460518976
+  },
+  "dryer_booster_incremental_load_TWh": 0.2463584181530752,
+  "after_drying": {
+    "generation_cost_CAD_MWh": 148.2172344276437,
+    "trading_cost_CAD_MWh": 42.311770506084315,
+    "wind_extension_CAD_MWh": 0.973072568906172,
+    "total_CAD_MWh": 191.50207750263417,
+    "hvo_ml_mean": 471.3879150657198,
+    "hvo_ml_max": 597.9666859115708,
+    "max_gas_gwh": 0.0,
+    "max_unserved_gwh": 0.0,
+    "import_twh": 12.405435280727133,
+    "export_twh": 1.0622279395812397,
+    "curtail_twh": 0.0015250640536070218,
+    "import_revenue_bn": 1.5684352534356236,
+    "export_revenue_bn": 0.04500588001192878,
+    "capex_bn": 49.70605460518976
+  },
+  "increment_vs_no_drying": {
+    "HVO_ML": 15.37819726365234,
+    "grid_import_TWh": 0.11988031837871027,
+    "grid_export_TWh": -0.0413852231555043,
+    "curtailed_TWh": -0.00026398072952489994,
+    "import_cost_CAD_bn": 0.01481468862756885,
+    "export_receipts_CAD_bn": -0.0019343743589195217
+  },
+  "heat": {
+    "thermal_use_twh_per_year": 9.994991591724158,
+    "thermal_utilization_pct": 35.78242330714828,
+    "drying_heat_twh_per_year": 2.9546164625887377,
+    "drying_electric_booster_twh_per_year": 0.24635841815307513,
+    "drying_capex_CAD_bn": 0.33836082037833937,
+    "drying_margin_CAD_m_yr": -2.33264081535978,
+    "dryer_water_removed_mt_per_year": 2.045837401005416,
+    "remaining_rejection_twh_per_year": 13.747790667710836,
+    "dryers_assumed_contracts": 15,
+    "emissions_fossil_drying_displaced_t": 186030.57039670576,
+    "electricity_no_free_curtail_claim": true
+  },
+  "emissions_mt_approx_by_grid_intensity": {
+    "20": 1.0754032159145042,
+    "100": 2.067838038372675,
+    "250": 3.928653330481745
+  },
+  "emissions_disclosure": "Screening life-cycle ledger under WTW factors; separate 2010\u20132025 weather, not measured lifetime emissions.",
+  "gpu_model": "25-year explicit gpu_npv(), same GPU purchase and usage, new annual power-cost path; community finances excluded symmetrically.",
+  "gpu_economics": [
+    {
+      "product": "GB300 NVL72",
+      "tier": "spot (conservative)",
+      "generation_price_decline": 0,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.45855996331593407,
+      "baseline_DG_NPV_bn": 60.16739889355866,
+      "gas_NPV_bn": 82.4230771631133,
+      "DG_NPV_at_USD1_label_bn": 108.7012440827889
+    },
+    {
+      "product": "GB300 NVL72",
+      "tier": "spot (conservative)",
+      "generation_price_decline": 0.15,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.4543556694338078,
+      "baseline_DG_NPV_bn": -82.3892263406502,
+      "gas_NPV_bn": -57.81003981578711,
+      "DG_NPV_at_USD1_label_bn": -28.29242909920216
+    },
+    {
+      "product": "GB300 NVL72",
+      "tier": "market on-demand",
+      "generation_price_decline": 0,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.45855996331593735,
+      "baseline_DG_NPV_bn": 392.38314901462115,
+      "gas_NPV_bn": 414.63882728417593,
+      "DG_NPV_at_USD1_label_bn": 440.91699420385135
+    },
+    {
+      "product": "GB300 NVL72",
+      "tier": "market on-demand",
+      "generation_price_decline": 0.15,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.45653311909234956,
+      "baseline_DG_NPV_bn": 192.34143307309188,
+      "gas_NPV_bn": 215.0573200964507,
+      "DG_NPV_at_USD1_label_bn": 242.09880241470967
+    },
+    {
+      "product": "HGX B300",
+      "tier": "spot (conservative)",
+      "generation_price_decline": 0,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.4279766530770214,
+      "baseline_DG_NPV_bn": 93.56377703604971,
+      "gas_NPV_bn": 115.81945530560438,
+      "DG_NPV_at_USD1_label_bn": 145.56586198517752
+    },
+    {
+      "product": "HGX B300",
+      "tier": "spot (conservative)",
+      "generation_price_decline": 0.15,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.42409261338543347,
+      "baseline_DG_NPV_bn": -42.234328944200875,
+      "gas_NPV_bn": -17.955096767011057,
+      "DG_NPV_at_USD1_label_bn": 15.015506141051642
+    },
+    {
+      "product": "HGX B300",
+      "tier": "market on-demand",
+      "generation_price_decline": 0,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.427976653077021,
+      "baseline_DG_NPV_bn": 417.15054663448734,
+      "gas_NPV_bn": 439.40622490404195,
+      "DG_NPV_at_USD1_label_bn": 469.15263158361506
+    },
+    {
+      "product": "HGX B300",
+      "tier": "market on-demand",
+      "generation_price_decline": 0.15,
+      "label_share": 0.5,
+      "breakeven_USD_per_labelled_GPU_hour": 0.4250452885976604,
+      "baseline_DG_NPV_bn": 223.0712728153163,
+      "gas_NPV_bn": 245.54233683549577,
+      "DG_NPV_at_USD1_label_bn": 275.9387309968141
+    }
+  ],
+  "limitations": [
+    "Ridge wind proxy sites; no measured wind farm layouts",
+    "Grid prices are hourly scenarios, not observed wholesale prices",
+    "No demonstrated 2.5GW import/3GW export agreement",
+    "No passing utility AC N-1 design",
+    "Industrial drying customers not contracted"
+  ]
+}

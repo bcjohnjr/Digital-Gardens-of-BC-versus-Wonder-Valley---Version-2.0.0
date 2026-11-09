@@ -1,0 +1,14 @@
+{
+  "WW_matched_full_service_no_CCS_direct_Mt_y": 12.59695070599575,
+  "WW_matched_full_service_90CCS_direct_Mt_y": 1.4486493311895108,
+  "WW_matched_full_service_95CCS_direct_Mt_y": 0.7243246655947563,
+  "DG_enlarged_updated_gross_Mt_y": 2.016540533101335,
+  "DG_enlarged_updated_conditional_net_Mt_y": 1.519853204964128,
+  "DG_enlarged_hvo_consumption_new_ML_y": 555.2506516050864,
+  "DG_enlarged_extra_dispatch_cost_CAD_m_y": 502.55002568914983,
+  "DG_reference_central_hourly_unserved_GWh": 15727.52138108714,
+  "DG_enlarged_central_unserved_GWh": 0.0,
+  "DG_enlarged_joint_stress_unserved_GWh": 12291.118765676549,
+  "approximate_partial_cost_practices": "DG added dispatch costs from inherited 1.8 CAD/L HVO and archived hourly import/export prices; no project-wide NPV, no WV OPEX comparison.",
+  "important_caution": "DG credit assumes complete local thermal connections; modeled heat connection sensitivity shows less if network not built. No equal lifecycle boundary established."
+}

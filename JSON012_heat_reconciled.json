@@ -1,0 +1,13 @@
+{
+  "thermal_use_twh_per_year": 9.994991591724158,
+  "thermal_utilization_pct": 35.78242330714828,
+  "drying_heat_twh_per_year": 2.9546164625887377,
+  "drying_electric_booster_twh_per_year": 0.24635841815307513,
+  "drying_capex_CAD_bn": 0.33836082037833937,
+  "drying_margin_CAD_m_yr": -2.33264081535978,
+  "dryer_water_removed_mt_per_year": 2.045837401005416,
+  "remaining_rejection_twh_per_year": 13.747790667710836,
+  "dryers_assumed_contracts": 15,
+  "emissions_fossil_drying_displaced_t": 186030.57039670576,
+  "electricity_no_free_curtail_claim": true
+}

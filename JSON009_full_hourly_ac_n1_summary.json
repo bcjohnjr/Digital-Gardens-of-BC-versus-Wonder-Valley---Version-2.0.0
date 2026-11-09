@@ -1,0 +1,25 @@
+{
+  "method": "nonlinear fixed-PQ balanced AC load flow for historical chronological fixed dispatch, intact + each single branch outage; not AC OPF and not a BC Hydro network",
+  "hours": 140160,
+  "branch_outages_completed": 93,
+  "n0_and_n1_cases": 94,
+  "nonlinear_power_flow_cases_evaluated": 13175040,
+  "complete_140160x93_branch_sweep": true,
+  "total_failed_ac_cases": 4779134,
+  "total_nonconverged_cases": 0,
+  "n0_failed_hours": 48766,
+  "hours_with_any_n1_failure": 101640,
+  "hourly_energy_balance_baseline_max_discrepancy_MW": 2.578435669420287e-07,
+  "max_branch_loading_pct": 112.7731418439701,
+  "worst_min_voltage_pu": 0.9512700269988639,
+  "max_grid_import_MW": 2508.5307112565883,
+  "max_grid_export_MW": 2999.9840854622003,
+  "mean_n0_ac_losses_MW": 25.75272213747956,
+  "elapsed_seconds": 175.01,
+  "notes": [
+    "No corrective redispatch or fuel inventory recalculation after N-1; failures are screens, not optimized outcomes.",
+    "All 37 buses, 93 parallel circuits, 17 campus allocation and 931 MVAr idealized Q correction are hypothetical.",
+    "The AC grid slack is independently checked against external access caps; these have not been contracted.",
+    "No PV bus generator Q limits, load-dependent losses feedback, tap controls, harmonics, fault duty or dynamic protections."
+  ]
+}

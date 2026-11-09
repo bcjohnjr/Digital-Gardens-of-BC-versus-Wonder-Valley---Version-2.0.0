@@ -1,0 +1,12 @@
+{
+  "robust_16yr_combined_stress_unserved_GWh": 2944.470664,
+  "robust_combined_stress_peak_unserved_MW": 1329.50966,
+  "robust_16yr_local_160MW_case_unserved_GWh": 46.420985,
+  "minimum_hypothetical_dispatchable_backup_nameplate_GW": 1.32951,
+  "backup_energy_16yr_TWh": 2.944471,
+  "additional_direct_CCGT_CO2_16yr_Mt": 0.932604,
+  "additional_direct_CCGT_CO2_average_year_Mt": 0.058288,
+  "incremental_CCGT_fuel_input_16yr_GJ": 18596656.824372,
+  "CCGT_fuel_spend_if_CAD6_per_GJ_over16yr_CAD_million": 111.579941,
+  "note": "energy-only repair assuming no startup constraint; cannot certify dispatch feasibility or N-1; excludes firm capacity/connection/capex and reserve margins"
+}

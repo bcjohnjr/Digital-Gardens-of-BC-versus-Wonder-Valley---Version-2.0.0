@@ -1,0 +1,14 @@
+{
+  "node": "kamloops",
+  "receiving_water": "Thompson River at Kamloops",
+  "hydrometric_station": "Water Survey of Canada 08LF023",
+  "observed_one_day_flow_reference": "309 m3/s at 2026-10-30 (source cited in article; not Q95)",
+  "heat_rejected_twh_y": 0.30719514474657805,
+  "mean_heat_MW": 35.06793889801119,
+  "p95_heat_MW": 117.335801982979,
+  "max_heat_MW": 134.28402103459905,
+  "max_full_mixing_deltaT_at_309m3s_C": 0.10381655992667735,
+  "max_10pct_mixing_deltaT_at_309m3s_C": 1.0381655992667735,
+  "flow_to_hold_peak_deltaT_under_1C_at_10pct_mixing_m3s": 320.793170173433,
+  "conclusion": "No compliance finding: local flows, outfall placement, stratification, baseline temperatures and fish habitat needed; use dry coolers when water impacts too high."
+}

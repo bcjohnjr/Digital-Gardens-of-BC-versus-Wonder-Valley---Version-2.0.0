@@ -1,0 +1,111 @@
+{
+  "method": "16x8760 hourly redispatch of the grid-connected 732 x 8 MW portfolio; 24-hour-capable drying added to existing 2.955-TWh/y heat contracts",
+  "ccgt_MW": 360,
+  "ccgt_biomethane_share_of_fuel_input": 0.25,
+  "ccgt_electrical_efficiency_percent": 58.95033985850349,
+  "ccgt_scenarios": [
+    {
+      "case": "limited",
+      "recoverable_fraction_of_post_steam_residual": 0.3,
+      "co_located_heat_demand_cap_MWth": 40,
+      "annual_useful_heat_GWh": 109.82836337990732,
+      "electric_efficiency_pct": 58.95033985850349,
+      "combined_electric_plus_thermal_efficiency_pct": 65.87030620928101,
+      "net_annual_margins_mCAD_at_heat_tariff_10": -1.1945883762933427,
+      "net_annual_margins_mCAD_at_heat_tariff_20": -0.09630474249426968,
+      "break_even_heat_tariff_cad_mwhth": 20.876865861700423
+    },
+    {
+      "case": "central",
+      "recoverable_fraction_of_post_steam_residual": 0.5,
+      "co_located_heat_demand_cap_MWth": 100,
+      "annual_useful_heat_GWh": 266.46569095193615,
+      "electric_efficiency_pct": 58.95033985850349,
+      "combined_electric_plus_thermal_efficiency_pct": 75.73909923229546,
+      "net_annual_margins_mCAD_at_heat_tariff_10": -3.0432074632181814,
+      "net_annual_margins_mCAD_at_heat_tariff_20": -0.37855055369881985,
+      "break_even_heat_tariff_cad_mwhth": 21.420635250813962
+    },
+    {
+      "case": "high_match",
+      "recoverable_fraction_of_post_steam_residual": 0.65,
+      "co_located_heat_demand_cap_MWth": 180,
+      "annual_useful_heat_GWh": 423.51899307214046,
+      "electric_efficiency_pct": 58.95033985850349,
+      "combined_electric_plus_thermal_efficiency_pct": 85.63221091062911,
+      "net_annual_margins_mCAD_at_heat_tariff_10": -5.87060818828214,
+      "net_annual_margins_mCAD_at_heat_tariff_20": -1.6354182575607359,
+      "break_even_heat_tariff_cad_mwhth": 23.861499210927157
+    }
+  ],
+  "high_temperature_steam_extraction": [
+    {
+      "electric_penalty_MWhe_per_MWhth": 0.08,
+      "steam_demand_cap_MWth": 60,
+      "annual_useful_steam_GWh": 165.97124045881634,
+      "annual_replacement_electricity_GWh": 13.277699236705306,
+      "all_in_heat_price_to_break_even_CAD_MWhth": 47.761705125788076,
+      "net_margin_at_35_CAD_m_yr": -2.1180760300966823,
+      "net_margin_at_50_CAD_m_yr": 0.37149257678556347
+    },
+    {
+      "electric_penalty_MWhe_per_MWhth": 0.12,
+      "steam_demand_cap_MWth": 60,
+      "annual_useful_steam_GWh": 165.97124045881634,
+      "annual_replacement_electricity_GWh": 19.91654885505796,
+      "all_in_heat_price_to_break_even_CAD_MWhth": 60.908788116749605,
+      "net_margin_at_35_CAD_m_yr": -4.300113702521572,
+      "net_margin_at_50_CAD_m_yr": -1.8105450956393265
+    },
+    {
+      "electric_penalty_MWhe_per_MWhth": 0.16,
+      "steam_demand_cap_MWth": 60,
+      "annual_useful_steam_GWh": 165.97124045881634,
+      "annual_replacement_electricity_GWh": 26.555398473410612,
+      "all_in_heat_price_to_break_even_CAD_MWhth": 74.05587110771089,
+      "net_margin_at_35_CAD_m_yr": -6.482151374946421,
+      "net_margin_at_50_CAD_m_yr": -3.992582768064175
+    }
+  ],
+  "baseline_utility_model_cost_CAD_MWh": 191.50207750263417,
+  "continuous_dryer_central": {
+    "contract_capacity_MWth": 150,
+    "service_uptime": 0.95,
+    "low_temperature_direct_share": 0.75,
+    "heat_pump_COP": 2.5,
+    "reference_gas_tariff": "Fortis_Rate5_large_variable_only",
+    "annual_delivery_GWh_th": 1251.6,
+    "annual_heat_source_draw_GWh_th": 1126.44,
+    "annual_extra_electricity_GWh": 150.192,
+    "mean_incr_grid_import_GWh": 72.24949060220243,
+    "mean_foregone_export_GWh": 23.903918124810065,
+    "mean_extra_HVO_ML": 9.77847350173743,
+    "electricity_and_fuel_cost_per_heat_MWh_CAD": 22.074528458689027,
+    "system_unit_cost_cad_mwh_th": 41.27264905026693,
+    "gas_unit_cost_cad_mwh_th": 37.275252896148785,
+    "cost_difference_cad_mwh_th": -3.9973961541181406,
+    "unit_cost_at_25cad_tariff_margin_cad_mwh": -16.272649050266928,
+    "breakeven_service_tariff_cad_mwh_th": 41.27264905026693,
+    "annual_profit_at_25cad_tariff_cad_m": -20.366847551314084,
+    "annual_profit_at_35cad_tariff_cad_m": -7.850847551314086,
+    "annual_profit_at_45cad_tariff_cad_m": 4.665152448685914,
+    "gas_fuel_only_cad_mwh_th": 20.25658536585366
+  },
+  "existing_heat_utilization_TWh_per_yr": 9.994991591724158,
+  "existing_dryer_thermal_TWh_per_yr": 2.9546164625887377,
+  "unused_IT_heat_TWh_per_yr": 13.747790667710836,
+  "heat_grade": "CCGT post-steam residual for 35\u201365 C greenhouse/aquaculture, IT return for direct low-temperature drying with electric heat pump for higher grade; no steam extraction credited for free",
+  "site_level_allocation_not_established": true,
+  "uncontracted_continuous_material_supply": true,
+  "incremental_heat_pump_electricity_in_hourly_dispatch": true,
+  "gas_rates": "FortisBC 2026 Rate 5/3 published variable charges, excluding fixed demand and taxes",
+  "limits": [
+    "Thermal outlet temperatures and project siting assumed",
+    "Additional 150MW steady low-temperature IT heat sink is a deployment screen, not buyer commitments",
+    "COP=2.5 illustrative",
+    "Gas Rate 5 excludes demand charges; process capital and handling simplifications",
+    "Hourly power prices modeled, not observed or contracted",
+    "The CCGT heat may be elsewhere from proposed aquaculture/greenhouse sinks; no piping feasibility",
+    "Existing IT reject heat is treated as uniform hourly availability from annual model"
+  ]
+}

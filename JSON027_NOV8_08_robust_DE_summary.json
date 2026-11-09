@@ -1,0 +1,241 @@
+{
+  "type": "exploratory differential evolution fixed static capacity multi-scenario screen (not construction feasibility)",
+  "selection_from": "2010-2019 training periods only",
+  "validation": "2020-2025 held-out with respect to these new capacity choices, but not to original underlying weather calibration",
+  "training_stresses": [
+    "central",
+    "wind_minus10",
+    "access_half"
+  ],
+  "joint_stress_heldout_only": true,
+  "site_wind_max_GW": [
+    2,
+    2,
+    0.2,
+    2,
+    2
+  ],
+  "solar_max_GW": 35,
+  "battery_max_GWh": 70,
+  "fuel_limit_ML_y": 976.4516,
+  "minimum_supply_headroom_fraction_for_training_stresses": 0.1,
+  "engine_limits": [
+    "5100 MW central/wind/access independent",
+    "2720 MW only joint sensitivity, not training"
+  ],
+  "seeds": [
+    681,
+    682
+  ],
+  "solutions": [
+    {
+      "seed": 681,
+      "type": "continuous",
+      "capacities": [
+        1.9268820590261768,
+        1.6456046812472875,
+        0.028330576921550193,
+        1.9478474230800096,
+        1.81841021971626,
+        18.140400230839173,
+        24.74823361890556
+      ],
+      "score": 249.0857274764399,
+      "training": [
+        {
+          "scenario": "central",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 511.78568826405484,
+          "cost_CAD_MWh_IF_served": 237.15684775149833,
+          "mean_HVO_ML_y": 422.50452284014534,
+          "mean_import_TWh_y": 4.168034899755815
+        },
+        {
+          "scenario": "wind_minus10",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 562.877981976717,
+          "cost_CAD_MWh_IF_served": 241.60816702603498,
+          "mean_HVO_ML_y": 463.1609725578302,
+          "mean_import_TWh_y": 4.537415935994536
+        },
+        {
+          "scenario": "access_half",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 872.9233128601485,
+          "cost_CAD_MWh_IF_served": 249.0857274764399,
+          "mean_HVO_ML_y": 751.2589624274826,
+          "mean_import_TWh_y": 2.3533611456187207
+        }
+      ]
+    },
+    {
+      "seed": 681,
+      "type": "8MW_roundup",
+      "capacities": [
+        1.928,
+        1.6480000000000001,
+        0.032,
+        1.952,
+        1.824,
+        18.140400230839173,
+        24.74823361890556
+      ],
+      "score": 249.12763848714792,
+      "training": [
+        {
+          "scenario": "central",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 510.93816905143836,
+          "cost_CAD_MWh_IF_served": 237.20264093617362,
+          "mean_HVO_ML_y": 421.8501506708859,
+          "mean_import_TWh_y": 4.162566696145381
+        },
+        {
+          "scenario": "wind_minus10",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 562.0466687779065,
+          "cost_CAD_MWh_IF_served": 241.6526653165365,
+          "mean_HVO_ML_y": 462.48248516656383,
+          "mean_import_TWh_y": 4.530775311632634
+        },
+        {
+          "scenario": "access_half",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 871.9172491761312,
+          "cost_CAD_MWh_IF_served": 249.12763848714792,
+          "mean_HVO_ML_y": 750.1600778568833,
+          "mean_import_TWh_y": 2.3503470767865684
+        }
+      ]
+    },
+    {
+      "seed": 682,
+      "type": "continuous",
+      "capacities": [
+        1.9194167576572798,
+        1.9406922338735506,
+        0.14075942348854628,
+        1.9420208541771393,
+        1.658051314330603,
+        17.311875961238112,
+        25.000727923953733
+      ],
+      "score": 248.13382978116186,
+      "training": [
+        {
+          "scenario": "central",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 513.8584163447921,
+          "cost_CAD_MWh_IF_served": 236.18157849213551,
+          "mean_HVO_ML_y": 423.7070326978075,
+          "mean_import_TWh_y": 4.159829626646135
+        },
+        {
+          "scenario": "wind_minus10",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 566.1625742024398,
+          "cost_CAD_MWh_IF_served": 240.7147048891405,
+          "mean_HVO_ML_y": 464.80885380987047,
+          "mean_import_TWh_y": 4.519133381783814
+        },
+        {
+          "scenario": "access_half",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 878.5723970161067,
+          "cost_CAD_MWh_IF_served": 248.13382978116186,
+          "mean_HVO_ML_y": 753.3054018233846,
+          "mean_import_TWh_y": 2.340503714466774
+        }
+      ]
+    },
+    {
+      "seed": 682,
+      "type": "8MW_roundup",
+      "capacities": [
+        1.92,
+        1.944,
+        0.14400000000000002,
+        1.944,
+        1.6640000000000001,
+        17.311875961238112,
+        25.000727923953733
+      ],
+      "score": 248.1758606836223,
+      "training": [
+        {
+          "scenario": "central",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 513.1394162701043,
+          "cost_CAD_MWh_IF_served": 236.22508960797597,
+          "mean_HVO_ML_y": 423.17374056411,
+          "mean_import_TWh_y": 4.155416096945991
+        },
+        {
+          "scenario": "wind_minus10",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 565.3978166118311,
+          "cost_CAD_MWh_IF_served": 240.75701272157104,
+          "mean_HVO_ML_y": 464.2457110336476,
+          "mean_import_TWh_y": 4.513719469109969
+        },
+        {
+          "scenario": "access_half",
+          "unserved_GWh": 0.0,
+          "peak_HVO_ML_y": 877.683669136864,
+          "cost_CAD_MWh_IF_served": 248.1758606836223,
+          "mean_HVO_ML_y": 752.4142110374447,
+          "mean_import_TWh_y": 2.3380661820003765
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "seed": 682,
+    "type": "continuous",
+    "capacities": [
+      1.9194167576572798,
+      1.9406922338735506,
+      0.14075942348854628,
+      1.9420208541771393,
+      1.658051314330603,
+      17.311875961238112,
+      25.000727923953733
+    ],
+    "score": 248.13382978116186,
+    "training": [
+      {
+        "scenario": "central",
+        "unserved_GWh": 0.0,
+        "peak_HVO_ML_y": 513.8584163447921,
+        "cost_CAD_MWh_IF_served": 236.18157849213551,
+        "mean_HVO_ML_y": 423.7070326978075,
+        "mean_import_TWh_y": 4.159829626646135
+      },
+      {
+        "scenario": "wind_minus10",
+        "unserved_GWh": 0.0,
+        "peak_HVO_ML_y": 566.1625742024398,
+        "cost_CAD_MWh_IF_served": 240.7147048891405,
+        "mean_HVO_ML_y": 464.80885380987047,
+        "mean_import_TWh_y": 4.519133381783814
+      },
+      {
+        "scenario": "access_half",
+        "unserved_GWh": 0.0,
+        "peak_HVO_ML_y": 878.5723970161067,
+        "cost_CAD_MWh_IF_served": 248.13382978116186,
+        "mean_HVO_ML_y": 753.3054018233846,
+        "mean_import_TWh_y": 2.340503714466774
+      }
+    ]
+  },
+  "elapsed_s": 68.83,
+  "calls": 2440,
+  "cautions": [
+    "Numerical optimization searches a nonconvex engineering proxy, no global certificate",
+    "Source availability/fuel costs/land/siting/AC/N1/unmodelled firm-generation constraints are not optimized",
+    "Maximum 2 GW/site wind and 35 GW solar/70 GWh battery are assumed mathematical bounds",
+    "Cost applies only when full demand served and does not include grid-upgrade charges",
+    "No genuinely independent wind resource prediction."
+  ]
+}

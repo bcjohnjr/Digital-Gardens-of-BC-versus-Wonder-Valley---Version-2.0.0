@@ -1,0 +1,27 @@
+{
+  "normalization_training_2010_2019_p95_MW": {
+    "import": 3500.0,
+    "export": 3600.0
+  },
+  "time_alignment": "HE -> hour beginning; assumed fixed PST = UTC-8. Hour-shift sensitivity required; historical DST convention not established for every workbook.",
+  "duplicate_policy": "TTC minimum; load/flow mean at duplicate timestamps; disagreements retained in audit",
+  "missing_conservative_zero_hours": {
+    "import": 16,
+    "export": 32
+  },
+  "availability_summary": {
+    "import": {
+      "mean": 0.801527654109589,
+      "p05": 0.5757142857142857,
+      "zero_hours": 18
+    },
+    "export": {
+      "mean": 0.8367156582952817,
+      "p05": 0.6152777777777778,
+      "zero_hours": 34
+    }
+  },
+  "duplicate_timestamp_series": 1439,
+  "conflicting_duplicate_timestamp_series": 633,
+  "interpretation": "The sum of directional TTC is a regional stress index, NOT simultaneous transfer capability or capacity awarded to this project."
+}

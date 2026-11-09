@@ -1,0 +1,65 @@
+{
+  "integer8MW_portfolio": [
+    1.92,
+    1.944,
+    0.14400000000000002,
+    1.944,
+    1.6640000000000001,
+    17.311875961238112,
+    25.000727923953733
+  ],
+  "wind_GW": 7.616,
+  "turbine_count": 952,
+  "solar_GW": 17.311875961238112,
+  "battery_GWh": 25.000727923953733,
+  "training_selected_from": "2010\u20132019 only",
+  "results": [
+    {
+      "scenario": "central",
+      "unserved_GWh": 0.0,
+      "unserved_hours": 0,
+      "mean_HVO_ML_y": 369.58902853654877,
+      "peak_HVO_ML_y": 513.1394162701043,
+      "mean_import_TWh_y": 4.24235359449565,
+      "conditional_cost_CAD_MWh_ONLY_IF_fully_served": 233.84358693636986
+    },
+    {
+      "scenario": "wind_minus10",
+      "unserved_GWh": 0.0,
+      "unserved_hours": 0,
+      "mean_HVO_ML_y": 406.26295874408584,
+      "peak_HVO_ML_y": 565.3978166118311,
+      "mean_import_TWh_y": 4.640450946781552,
+      "conditional_cost_CAD_MWh_ONLY_IF_fully_served": 238.3174578260053
+    },
+    {
+      "scenario": "half_access",
+      "unserved_GWh": 0.0,
+      "unserved_hours": 0,
+      "mean_HVO_ML_y": 700.0830250334493,
+      "peak_HVO_ML_y": 877.683669136864,
+      "mean_import_TWh_y": 2.4174443724815413,
+      "conditional_cost_CAD_MWh_ONLY_IF_fully_served": 245.83561434611147
+    },
+    {
+      "scenario": "local_160mw",
+      "unserved_GWh": 46.420984741640865,
+      "unserved_hours": 332,
+      "mean_HVO_ML_y": 369.0592537631803,
+      "peak_HVO_ML_y": 512.5210716901896,
+      "mean_import_TWh_y": 4.24235359449565,
+      "conditional_cost_CAD_MWh_ONLY_IF_fully_served": null
+    },
+    {
+      "scenario": "joint_adverse",
+      "unserved_GWh": 2944.470663858971,
+      "unserved_hours": 9641,
+      "mean_HVO_ML_y": 734.6134376662073,
+      "peak_HVO_ML_y": 886.8847004088934,
+      "mean_import_TWh_y": 2.641777253789869,
+      "conditional_cost_CAD_MWh_ONLY_IF_fully_served": null
+    }
+  ],
+  "cost_scope": "No physical grid upgrades, fuel contracting, siting, AC/N1, construction safety or market access fees",
+  "interpretation": "Exploratory robust to separate stresses in the pooled model only; joint stress remains unmet"
+}

@@ -1,0 +1,32 @@
+{
+  "release_type": "CONDITIONAL PLANNING SCREEN - not a BC Hydro certificate",
+  "q_base_fraction_P": 0.22,
+  "q_residual_fraction_P": 0.04,
+  "winter_load_MW_total": 5172.8336783675795,
+  "winter_load_MW_per_site": 304.2843340216223,
+  "assumed_compensation_Mvar_per_site": 54.771180123892016,
+  "assumed_compensation_Mvar_total": 931.1100621061643,
+  "winter_uncompensated": {
+    "cases": 99,
+    "converged": 99,
+    "voltage_case_violations": 14,
+    "min_voltage_pu": 0.9214641135967622,
+    "max_line_overloads": 0,
+    "max_unserved_MW": 0.0
+  },
+  "winter_compensated_ideal": {
+    "cases": 99,
+    "converged": 99,
+    "voltage_case_violations": 0,
+    "min_voltage_pu": 0.956859311664407,
+    "max_line_overloads": 0,
+    "max_unserved_MW": 0.0
+  },
+  "reactive_support_capital_screen_CAD_per_Mvar": [
+    200000.0,
+    400000.0,
+    600000.0
+  ],
+  "grid_capacity_status": "unreserved, proposal only; no utility system model",
+  "technical_scope": "AC PQ-bus steady state; excludes STATCOM controls and Q limits, transformer taps, faults, stability, protection and verified branch ratings"
+}

@@ -1,0 +1,40 @@
+{
+  "method": "Fixed asset, output-derived incremental lifecycle-factor accounting. Prior fixed-asset remainder carried forward; HVO WTW and proportional SCR N2O scaled, grid imports recalculated. No reinforcements, fuel transport geography, gas-side updates, OEM testing or standalone comprehensive LCIA.",
+  "old_reference_emissions_at_100": 2.067838038372675,
+  "prior_hvo_ML_yr": 471.3879150657198,
+  "prior_import_TWh_yr": 12.405435280727133,
+  "loss_hvo_ML_yr": 481.53669980432085,
+  "loss_import_TWh_yr": 12.518436236608558,
+  "HVO_factor_gCO2e_MJ": 25.0,
+  "HVO_LHV_MJ_L": 36.51,
+  "HVO_price_CAD_L": 1.8,
+  "old_scr_scaled_from_Mt": 0.00789952444172641,
+  "old_scr_scaled_from_HVO_ML": 163.986282,
+  "electricity_service_TWh_yr": 36.00486,
+  "central_at_100": {
+    "pooled_zero_loss": 2.067838038372675,
+    "intact_i2r_loss": 2.0888903230823934,
+    "hypothetical_preventive_13pct": 2.0902041531613453,
+    "wind_minus10_full_hvo_substitution": 2.392588568070207
+  },
+  "cost_CAD_MWh": {
+    "pooled_zero_loss": 191.50207750263417,
+    "intact_i2r_loss": 192.47227034521282,
+    "hypothetical_preventive_13pct": 192.5406241203039,
+    "wind_minus10_full_hvo_substitution": 208.2725795830828
+  },
+  "fuel_ML_yr": {
+    "pooled_zero_loss": 471.3879150657198,
+    "intact_i2r_loss": 481.53669980432085,
+    "hypothetical_preventive_13pct": 482.90395986133535,
+    "wind_minus10_full_hvo_substitution": 797.585545396663
+  },
+  "unquantified": [
+    "Embodied carbon of enlarged collector conductors, towers and transformers",
+    "Battery/engine degradation from new operating profile",
+    "Revised fuel production/delivery sourcing including ILUC",
+    "Protection, dynamic stability, grid connection and electricity-price impacts",
+    "Wind project siting and true observed production",
+    "Actual SCR N2O control and permit measurements"
+  ]
+}

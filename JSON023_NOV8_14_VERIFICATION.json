@@ -1,0 +1,9 @@
+{
+  "scenario_count": 8,
+  "hour_count_per_scenario": 140160,
+  "archive_provenance": "NOV8_13 supplied original prepared inputs",
+  "crosschecks_passed": true,
+  "full_annual_electricity_TWh": 39.771820826635036,
+  "full_WV_CC_no_ccs_direct_and_methane_Mt": 14.10916785139765,
+  "source_rights": "private, not cleared for unrestricted release"
+}

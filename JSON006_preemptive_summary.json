@@ -1,0 +1,25 @@
+{
+  "method": "sensitivity: synthetic full-hourly preventative local fuel dispatch to cover archived N1 import excess, and 13% increased nominal ratings on 3 double-circuit wind collectors; 93 fixed-injection outages each hour; not corrective AC OPF, not a BC Hydro network or demonstrated project feasibility",
+  "hours": 140160,
+  "branch_outages_completed": 93,
+  "n0_and_n1_cases": 94,
+  "nonlinear_power_flow_cases_evaluated": 13175040,
+  "complete_140160x93_branch_sweep": true,
+  "total_failed_ac_cases": 0,
+  "total_nonconverged_cases": 0,
+  "n0_failed_hours": 0,
+  "hours_with_any_n1_failure": 0,
+  "hourly_energy_balance_baseline_max_discrepancy_MW": 2.578431121946778e-07,
+  "max_branch_loading_pct": 99.79924056988506,
+  "worst_min_voltage_pu": 0.9512700269988639,
+  "max_grid_import_MW": 2499.749261213985,
+  "max_grid_export_MW": 2999.9840854622003,
+  "mean_n0_ac_losses_MW": 25.74193530553335,
+  "elapsed_seconds": 172.88,
+  "notes": [
+    "Preventative dispatch based on archived N1 grid worstcase; no post-fault response, not an AC OPF. Fuel inventories checked per annual total, but no storage/commitment transition restaging.",
+    "All 37 buses, 93 parallel circuits, 17 campus allocation and 931 MVAr idealized Q correction are hypothetical.",
+    "The AC grid slack is independently checked against external access caps; these have not been contracted.",
+    "No PV bus generator Q limits, load-dependent losses feedback, tap controls, harmonics, fault duty or dynamic protections."
+  ]
+}
